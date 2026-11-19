@@ -1,8 +1,8 @@
 name: Calculator CI
 
 on:
-  pull_request
-    branches:main
+  main
+    branches:pull_request
   tests
 
 permissions:
