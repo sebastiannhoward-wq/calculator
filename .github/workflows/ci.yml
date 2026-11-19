@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: python-version: "3.13"
+        uses: python-version:"3.13"
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
